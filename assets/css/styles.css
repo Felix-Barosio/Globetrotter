@@ -1,0 +1,17 @@
+
+header{
+    display: inline;
+    font-family: cursive ;
+    margin-right: 150px;
+}
+
+ul{
+    list-style-type: none;
+    background-color: #09b5ec;
+    padding: 20px;
+}
+
+li{
+    display: inline;
+    margin-right: 100px;
+}
