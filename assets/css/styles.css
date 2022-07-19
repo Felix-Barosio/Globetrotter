@@ -1,10 +1,12 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header{
     display: inline;
     margin-right: 200px;
+    
 
 }
 
@@ -20,20 +22,41 @@ li{
     display: inline;
     margin-right: 50px;  
 }
+nav , ul , li , a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
 .img-container{
     background-image: url("../images/Kopje-courtesy.jpg");
     height: 70vh;
     background-size: cover;
-    filter: blur(1px);
-    background-repeat:no-repeat;
+    /* filter: blur(1px) */
     width: 100%;
 }
 h1{
     color: rgb(204, 239, 241); 
     font-weight: 400;
 }
+.brk{
+    background-color: #d9d9d9;
+    padding: 20px;
+    margin-top: 2px;
+}
+.first-pkg{
+    display: flex;
+    justify-content: space-around;
+}
+#head{
+    text-align: center;
+    color: rgb(2, 7, 48);
+    text-shadow: 10px purple;
+}
+#img{
+    background-color: whitesmoke;
+    /* box-shadow: 10px 10px rgba(194, 182, 182, 0.541); */
+}
 
- 
 
 
    
