@@ -1,4 +1,3 @@
-
 header{
     display: inline;
     font-family: cursive ;
@@ -8,10 +7,22 @@ header{
 ul{
     list-style-type: none;
     background-color: #09b5ec;
-    padding: 20px;
+    padding: 20px; 
 }
 
 li{
     display: inline;
     margin-right: 100px;
 }
+.backdrop{
+    background-image: url("../images/Kopje-courtesy.jpg");
+}
+h1{
+    color: #d4f4f2;
+    
+    font-weight: 400;
+}
+ 
+
+
+   
