@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+.main_container{
+    position: relative;
+    max-height: 100vh;
+    padding: 2.3vw 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact .content{
+    text-align: center;
+    width: 100%;
+}
+
+.contact .content h3{
+    font-size: 2.3vw;
+    font-weight: 700;
+    color: blue;
+    margin-top: 1.2vw;
+}
+
+.contact .content p{
+    font-size: 1.7vw;
+    font-weight: 400;
+    margin-top: 1.2vw;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*justify-content: space-around;*/
+    
+}
+.contact .content li{
+    font-size: 1.4vw;
+    font-weight: 300;
+}
+.image img{
+    width: 100%;
+    height: 50vw
+}
+
+.container .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container .contactinfo .box{
+    position: relative;
+    padding: 2.5vw 0;
+    display: flex;
+    
+}
+
+.container .contactinfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1.6vw;
+}
+
+.container .contactinfo .box .text{
+    display: flex;
+    font-weight: 300;
+    margin-left: 1.7vw;
+    font-size: 1.3vw;
+    flex-direction: column;
+}
+
+.container .contactinfo .box .text h4{
+    font-weight: 500;
+    font-size: 2.1vw;
+
+}
+.container .contactinfo .box .text p{
+    font-size: 1.3vw;
+}
+.contactform{
+    width: 40%;
+    padding: 40px;
+}
+.contactform h2{
+    font-size: 2.1vw;
+}
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactform .inputbox input, textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 1.3vw;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid;
+    outline: none;
+    resize: none;
+}
+
+.contactform .inputbox .spam{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 1.3vw;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    
+}
+
+.contactform .inputbox input:focus ~.spam,
+.contactform .inputbox input:valid ~.spam,
+.contactform .inputbox textarea:focus ~.spam,
+.contactform .inputbox textarea:valid ~.spam
+{
+    color: blue;
+    font-size: 1.3vw;
+    transform: translateY(-20px);
+}
+
+.contactform .inputbox input[type="submit"]{
+    width: 20vw;
+    border: none;
+    cursor: pointer;
+    padding: 1.1vw;
+    font-size: 1.5vw;
+}
