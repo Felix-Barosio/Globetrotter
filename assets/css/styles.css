@@ -1,27 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 header{
     display: inline;
-    font-family: cursive ;
-    margin-right: 150px;
+    margin-right: 200px;
+
 }
 
 ul{
     list-style-type: none;
     background-color: #09b5ec;
-    padding: 20px; 
+    padding: 25px;
+    margin-right: 20px;
+    width: 100%;
+    border-bottom: 2px solid grey ;
 }
-
 li{
     display: inline;
-    margin-right: 100px;
+    margin-right: 50px;  
 }
-.backdrop{
+.img-container{
     background-image: url("../images/Kopje-courtesy.jpg");
+    height: 70vh;
+    background-size: cover;
+    filter: blur(1px);
+    background-repeat:no-repeat;
+    width: 100%;
 }
 h1{
-    color: #d4f4f2;
-    
+    color: rgb(204, 239, 241); 
     font-weight: 400;
 }
+
  
 
 
