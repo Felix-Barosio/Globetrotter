@@ -39,3 +39,11 @@ a {
   font-size: 1.2vw;
   text-align: center;
 }
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2vw;
+}
+footer{
+    background-color: #7ED6F2;
+}
