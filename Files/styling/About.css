@@ -79,3 +79,10 @@ h2{
 .hidden{
     display: none;
 }
+#btn{
+    height: 2vw;
+    width: 6vw;
+    background-color: #7ED6F2;
+    border-radius: 5%;
+    margin-left: 10%;
+}
