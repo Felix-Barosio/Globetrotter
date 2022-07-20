@@ -65,6 +65,11 @@ h3{
 strong{
     display: block;
 }
-
-
+/*footer*/
+table,
+tr,
+td{
+    padding-right: 100px;
+    padding-left: 100px;
+}
    
