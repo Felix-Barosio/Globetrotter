@@ -60,9 +60,11 @@ h3{
     background-color: rgba(223, 229, 230, 0.336);
     border: 15px rgba(223, 229, 230);
     padding-bottom: 15px;
-    box-shadow: 10px 10px rgba(199, 191, 192, 0.404);
+    box-shadow: 5px 10px 20px rgb(122, 117, 118);
 }
-
+strong{
+    display: block;
+}
 
 
    
