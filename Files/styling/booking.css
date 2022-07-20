@@ -1,0 +1,41 @@
+header {
+  background-color: #7ed6f2;
+}
+footer {
+  background-color: #7ed6f2;
+}
+li {
+  display: inline-block;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+.book {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: white;
+  margin-top: 3vw;
+  font-size: 1.2vw;
+}
+.email {
+  margin: 2vw;
+  height: 2vw;
+  width: 10vw;
+  border: none;
+  border-bottom: 0.2vw solid;
+}
+#email {
+  width: 17vw;
+}
+.name {
+  border: none;
+  width: 7vw;
+  height: 2vw;
+  font-size: 1.2vw;
+  text-align: center;
+}

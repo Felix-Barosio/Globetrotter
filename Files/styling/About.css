@@ -2,9 +2,11 @@
 header{
     background-color: #7ED6F2;
 }
+/* footer*/
 footer{
     background-color: #7ED6F2;
 }
+/*footer*/
 li{
     display: inline-block;
 }
@@ -48,7 +50,7 @@ clear: right;
     display: grid;
     grid-template-columns: auto auto auto auto;
     background-color: white;
-    padding: 10px;
+    padding: 5vw;
     margin-left: 10%;
     margin-right: 10%;
 
@@ -65,11 +67,13 @@ clear: right;
 .grid1{
     padding: 2vw;
 }
+/*footer*/
 .footer{
     display: flex;
     justify-content: space-around;
     padding-top: 2vw;
 }
+/*footer*/
 .div2{
     margin-left: 8%;
     margin-right: 8%;
