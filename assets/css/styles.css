@@ -15,3 +15,67 @@ li{
 a{
     text-decoration: none;
 }
+.div1{
+    height: 12vw;
+    width: 100%;
+}
+*{
+    font-size: 0.9vw;
+}
+#div1{
+    float: left;
+    margin-right: 3vw;
+}
+#div2{
+clear: right;
+}
+.div4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5vw;
+}
+.images{
+    height: 25vw;
+    width: 80%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: white;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.div3{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 4vw;
+}
+.form{
+    width: 25%;
+    height: fit-content;
+}
+.grid1{
+    padding: 2vw;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2vw;
+}
+.div2{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 1vw;
+    margin-bottom: 8vw;
+}
+h2{
+    font-size: 1.2vw;
+}
+.hidden{
+    display: none;
+}
