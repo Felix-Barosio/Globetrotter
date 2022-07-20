@@ -32,7 +32,7 @@ a {
 #email {
   width: 17vw;
 }
-.name {
+.names {
   border: none;
   width: 7vw;
   height: 2vw;
@@ -46,4 +46,7 @@ a {
 }
 footer{
     background-color: #7ED6F2;
+}
+.li{
+    display: block;
 }
