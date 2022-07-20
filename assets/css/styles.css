@@ -57,7 +57,7 @@ h3{
     text-indent: 150px;
 }
 #img{
-    background-color: rgba(223, 229, 230, 0.336);
+    padding-left: 3px;
     border: 15px rgba(223, 229, 230);
     padding-bottom: 15px;
     box-shadow: 5px 10px 20px rgb(122, 117, 118);
