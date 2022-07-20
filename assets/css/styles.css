@@ -4,3 +4,14 @@ header{
 footer{
     background-color: #7ED6F2;
 }
+li{
+    display: inline-block;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
