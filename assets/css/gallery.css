@@ -36,7 +36,7 @@ nav , ul , li , a{
 }
 
 /* welcome section */
-/* .welcome-section{
+.welcome-section{
     position: relative;
 }
 
@@ -60,7 +60,7 @@ nav , ul , li , a{
     font-style: initial;
     font-weight: 500;
     color: #445a62;
-} */
+}
 
 
 /* hotels cards section */
