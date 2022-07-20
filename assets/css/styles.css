@@ -15,7 +15,7 @@ ul{
     padding: 25px;
     margin-right: 20px;
     width: 100%;
-    border-bottom: 2px solid grey ;
+    border-bottom: 3px solid grey ;
 }
 li{
     display: inline;
@@ -42,17 +42,13 @@ h1{
 .brk{
     background-color: #d9d9d9;
     padding: 20px;
-    margin-top: 10px;
+    border-top: 3px solid grey;
 }
 .first-pkg{
     display: flex;
     justify-content: space-around;
-    
-}
-#head{
-    text-align: center;
-    color: rgb(2, 7, 48);
-    text-shadow: 10px rgb(128, 0, 128);
+    font-size: smaller;
+    font-style: italic;   
 }
 h2{
     text-align: center;
@@ -62,10 +58,9 @@ h3{
 }
 #img{
     background-color: rgba(223, 229, 230, 0.336);
-    border: 2px rgba(223, 229, 230, 0.336);
+    border: 15px rgba(223, 229, 230);
     padding-bottom: 15px;
-    padding-left: 10px;
-    box-shadow: 10px 10px rgba(202, 193, 194, 0.466);
+    box-shadow: 10px 10px rgba(199, 191, 192, 0.404);
 }
 
 
