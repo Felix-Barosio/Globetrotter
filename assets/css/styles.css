@@ -3,6 +3,7 @@
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+/* Nav bar */
 header{
     display: inline;
     margin-right: 200px;
@@ -25,6 +26,7 @@ nav , ul , li , a{
     color: black;
     font-weight: 600;
 }
+/* ends here */
 .img-container{
     background-color: rgba(0, 0, 0, 0.644);
     background-image: url("../images/Kopje-courtesy.jpg");
