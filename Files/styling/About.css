@@ -86,3 +86,6 @@ h2{
     border-radius: 5%;
     margin-left: 10%;
 }
+.li{
+    display: block;
+}
