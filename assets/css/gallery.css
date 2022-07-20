@@ -61,10 +61,10 @@ nav , ul , li , a{
     font-weight: 500;
     color: #445a62;
 }
-
+ 
 
 /* hotels cards section */
-/* .title{
+.title{
     width: 80%;
     margin: 0% auto;
     align-items: center;
@@ -109,11 +109,11 @@ nav , ul , li , a{
     justify-content: center;
     gap: 100px;
     align-items: center;
-} */
+}  
 
 
 /* best hotels section */
-/* .card2{
+.card2{
     box-shadow: 5px 10px 18px #888888;
     padding:50px 30px;
     border-radius: 10px;
@@ -138,20 +138,20 @@ nav , ul , li , a{
     justify-content: center;
     gap: 100px;
     align-items: center;
-} */
+}  */
 
 /* devider section */
-/* .devider{
+.devider{
     width: 90%;
     margin: 0 auto;
     margin-top: 80px;
     margin-bottom: 30px;
     padding-top: 40px;
     background-color: grey;
-} */
+} 
 
 /* cities section */
-/* .card3{
+.card3{
     box-shadow: 5px 10px 18px #888888;
     padding:50px 30px;
     border-radius: 10px;
@@ -176,4 +176,4 @@ nav , ul , li , a{
     justify-content: center;
     gap: 100px;
     align-items: center;
-} */
+} 
