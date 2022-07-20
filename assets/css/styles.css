@@ -6,8 +6,6 @@
 header{
     display: inline;
     margin-right: 200px;
-    
-
 }
 
 ul{
@@ -41,7 +39,7 @@ h1{
 .brk{
     background-color: #d9d9d9;
     padding: 20px;
-    margin-top: 2px;
+    margin-top: 10px;
 }
 .first-pkg{
     display: flex;
@@ -51,6 +49,12 @@ h1{
     text-align: center;
     color: rgb(2, 7, 48);
     text-shadow: 10px purple;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-indent: 150px;
 }
 #img{
     background-color: whitesmoke;
