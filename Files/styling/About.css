@@ -1,3 +1,4 @@
+ /* THE HEADER FILE STARTS HERE */
 header{
     background-color: #7ED6F2;
 }
@@ -15,6 +16,8 @@ li{
 a{
     text-decoration: none;
 }
+/* ENDS HERE */
+
 .div1{
     height: 12vw;
     width: 100%;
