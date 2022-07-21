@@ -94,8 +94,8 @@ clear: right;
     margin-bottom: 5vw;
 }
 .images{
-    height: 25vw;
-    width: 80%;
+    height: 23vw;
+    width: 100%;
 }
 .grid{
     display: grid;
@@ -110,7 +110,7 @@ clear: right;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 4vw;
-    font-size: 1.2vw;
+    font-size: 1.7vw;
 }
 .form{
     width: 25%;
@@ -118,6 +118,7 @@ clear: right;
 }
 .grid1{
     padding: 2vw;
+    width: 100%;
 }
 
 .div2{
@@ -127,7 +128,7 @@ clear: right;
     margin-bottom: 8vw;
 }
 h2{
-    font-size: 1.2vw;
+    font-size: 1.9vw;
 }
 .hidden{
     display: none;
