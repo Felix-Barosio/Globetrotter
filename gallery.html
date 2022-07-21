@@ -10,15 +10,21 @@
 <body>
     
     <!-- Nav bar starts here -->
-        <nav>   
+        <!--------start of nav bar---------->
+    <div class="nav">
+        <div class="header">
             <ul>
-                <header>THE GLOBETROTTER</header>
-                <li> <a href=""> HOME</a></li>
-                <li> <a href=""> ABOUT US</a></li>
-                <li> <a href="">GALLERY</a> </li>
-                <li><a href="">CONTACT US</a> </li>
+                <li id="plus"><a href="#">The GLOBETROTTER</a></li>
+                <li><a href="./index.html" class="active">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li id="get"><a href="./login.html">Log In</a></li>
             </ul>
-        </nav>
+        </div>
+    </div>
+
+<!-----------end of nav bar-->
 
     <!-- into section -->
         <div class="welcome-section">
@@ -129,37 +135,54 @@
     <!-- Advert section -->
         <div class="quote-section">
             <div class="animated-text">
-                <p class="ani-t-p"><span class="ani-t-l">“T</span>ravel makes one modest. You see what a tiny place you occupy in the world.”
+                <p class="ani-t-p">“Travel makes one modest. You see what a tiny place you occupy in the world.” <br>
                     ― Gustave Flaubert!</p>
             </div>
         </div>
 
       <script src="./assets/js/script.js"></script>
+
    
  <!-- section footer -->
- <footer>
-    <div class="footer">
-        <form action=""><h3>THE GLOBETROTTER</h3></form>
-        <form action="">
-                <h3>Navigate</h3>
-                <ul type="none">
-                    <li class="li"><a href="index.html"><p>Home</p></a></li>
-                    <li class="li"><a href="About.html"><p>About</p></a></li>
-                    <li class="li"><a href="gallery.html"><p>Gallery</p></a></li>
-                    <li class="li"><a href="contact.html"><p>Contact Us</p></a></li>
-                </ul> 
-        </form>
-        <form action="">
-            <h5>Get in touch through</h5>
-            <p><a href="">twitter</a></p>
-            <p><a href="">facebook</a></p>
-            <p><a href="">instagram</a></p>
-        </form>
-        <form action="book">
-            <a href="booking.html"><h2>Booking</h2></a>
-        </form>
+ <div class="footer">
+    <div class="footer_container">
+        <div class="row">
+            <div class="cont2">
+                <h4 id="agri">The GLOBETROTTER.</h4>
+                <div class="icon">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+
+            </div>
+
+            <div class="cont2">
+                <h4>Our Patners</h4>
+                <ul>
+                    <li><a href="#">K.W.S.</a></li>
+                    <li><a href="#">Safaricom.</a></li>
+                    <li><a href="#">Sarova Hotels & Resort.</a></li>
+                </ul>
+            </div>
+            <div class="cont2">
+                <h4>Our Packages</h4>
+                <ul>
+                    <li><a href="">Blog.</a></li>
+                    <li><a href="">Events.</a></li>
+                    <li><a href="">Hotels.</a></li>
+                    <li><a href="">More....</a></li>
+                </ul>
+            </div>
+            <div class="cont2">
+                <h4>Others</h4>
+                <ul>
+                    <li><a href="">Register Now</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="./booking.html">Booking.</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
-    <em><p>@copyright 2022 tourist destination</p></em>
-</footer>
 </body>
 </html>
