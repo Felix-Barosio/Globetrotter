@@ -5,36 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/booking.css" />
   </head>
   <body>
-    <nav>
-      <header class="header">
-        <div>
-          <h2>The GLOBETROTTER</h2>
-        </div>
-        <div>
-          <ul type="none">
-            <a href="landing.html"
-              ><li><h3>Home</h3></li></a
-            >
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="About.html"
-              ><li><h3>About</h3></li></a
-            >&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="gallery.html"
-              ><li><h3>Gallery</h3></li></a
-            >&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="contact.html"
-              ><li><h3>Contact us</h3></li></a
-            >
+    <div class="nav">
+      <div class="header">
+          <ul>
+              <li id="plus"><a href="#">The GLOBETROTTER</a></li>
+              <li><a href="./index.html" class="active">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./gallery.html">Gallery</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+              <li id="get"><a href="./login.html">Log In</a></li>
           </ul>
-        </div>
-        <div>
-          <a href=""><p>login</p></a>
-        </div>
-      </header>
-    </nav>
+      </div>
+  </div>
     <div class="book">
       <form action="">
         <img src="Files/imaging/undraw_Travel_mode_re_2lxo.png" alt="" />
@@ -56,40 +42,48 @@
         <input type="submit" class="names" value="submit" />
       </form>
     </div>
-    <footer>
-      <div class="footer">
-        <form action=""><h3>THE GLOBETROTTER</h3></form>
-        <form action="">
-          <center>
-            <h3>Navigate</h3>
-            <ul type="none">
-              <li class="li">
-                <a href="index.html"><p>Home</p></a>
-              </li>
-              <li class="li">
-                <a href="About.html"><p>About</p></a>
-              </li>
-              <li class="li">
-                <a href="gallery.html"><p>Gallery</p></a>
-              </li>
-              <li class="li">
-                <a href="contact.html"><p>Contact Us</p></a>
-              </li>
-            </ul>
-          </center>
-        </form>
-        <form action="">
-          <h5>Get in touch through</h5>
-          <p><a href="">twitter</a></p>
-          <p><a href="">facebook</a></p>
-          <p><a href="">instagram</a></p>
-        </form>
-        <form action="book">
-          <a href="booking.html"><h2>Booking</h2></a>
-        </form>
+     <!-----Footer--------->
+     <div class="footer">
+      <div class="footer_container">
+          <div class="row">
+              <div class="cont2">
+                  <h4 id="agri">The GLOBETROTTER.</h4>
+                  <div class="icon">
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                  </div>
+
+              </div>
+
+              <div class="cont2">
+                  <h4>Our Patners</h4>
+                  <ul>
+                      <li><a href="#">K.W.S.</a></li>
+                      <li><a href="#">Safaricom.</a></li>
+                      <li><a href="#">Sarova Hotels & Resort.</a></li>
+                  </ul>
+              </div>
+              <div class="cont2">
+                  <h4>Our Packages</h4>
+                  <ul>
+                      <li><a href="">Blog.</a></li>
+                      <li><a href="">Events.</a></li>
+                      <li><a href="">Hotels.</a></li>
+                      <li><a href="">More....</a></li>
+                  </ul>
+              </div>
+              <div class="cont2">
+                  <h4>Others</h4>
+                  <ul>
+                      <li><a href="">Register Now</a></li>
+                      <li><a href="">About Us</a></li>
+                      <li><a href="./booking.html">Booking.</a></li>
+                  </ul>
+              </div>
+          </div>
       </div>
-      <em><p>@copyright 2022 tourist destination</p></em>
-    </footer>
+
     <script src="./assets/js/booking.js"></script>
   </body>
 </html>
