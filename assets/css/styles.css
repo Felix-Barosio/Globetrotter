@@ -35,7 +35,7 @@
 }
 
 .header li a:hover{
-    color: yellow;
+    color: #ed661f;
 }
 
 .header ul #get a{
@@ -191,7 +191,7 @@ strong{
                 
         .cont2 .icon a:hover{
             color: #24262b;
-            background-color: #ceb736;
+            background-color: #ed661f;
         }
                 
         #qual{
