@@ -58,9 +58,7 @@ nav , ul , li , a{
     text-align: center;
 }
 
-/* .welcome-wrapper:hover{
-    transform: translateY(0) scale(1.2);
-} */
+
 
 .text h1{
     font-style:inherit;
@@ -104,7 +102,7 @@ nav , ul , li , a{
     font-weight: 900;
     padding-bottom: 20px;
     border-bottom: 5px solid #09b5ec;
-    width: 310px;
+    width: 400px;
     transition: all ease-in .5s;
 }
 
@@ -189,7 +187,8 @@ nav , ul , li , a{
 
 /* cities section */
 .product-section{
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
+
 }
 .card3{
     box-shadow: 5px 10px 18px #888888;
@@ -217,6 +216,47 @@ nav , ul , li , a{
     gap: 100px;
     align-items: center;
 } 
+
+/* advert section */
+.quote-section{
+    padding-bottom: 50px;
+}
+.animated-text{
+
+    color: #000;
+    /* background-color: #f6f6f6; */
+    text-align: left;
+    font-family: lora, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 3em;
+    padding-top: 10em;
+    font-size: 10px;
+}
+
+.ani-t-p{
+    font-size: 17px;
+    font-size: 1.7em;
+    max-width: 570px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    line-height: 1.9em;
+}
+
+.ani-t-l{
+    font-size: 7em;
+    float: left;
+    line-height: 0.8em;
+    margin-top: -0.29em;
+    margin-right: -0.05em;
+}
+
+
+
+
+
+
 
 /* footer section */
 footer{
