@@ -95,28 +95,25 @@ body{
    left: 50%;
    transform: translate(-50%,-50%);
     background-color: rgb(60, 195, 240);
-    padding: 30px;
-    border-radius: 10px;
+    padding: 2.3vw;
+    border-radius: 1.1vw;
     opacity: .7;
     text-align: center;
 }
 
-/* .welcome-wrapper:hover{
-    transform: translateY(0) scale(1.2);
-} */
 
 .text h1{
     font-style:inherit;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
-    font-size: 50px;
-    padding-bottom: 40px;
+    font-size: 3.3vw;
+    padding-bottom: 1.9vw;
     color: #000;
     z-index: 10;
 }
 
 .text p{
-    font-size: 30px;
+    font-size: 1.8vw;
     font-family: cursive;
     font-style: initial;
     font-weight: 500;
@@ -129,7 +126,7 @@ body{
     width: 80%;
     margin: 0% auto;
     align-items: center;
-    padding-top: 30vh;
+    padding-top: 20vh;
 }
 
 .title h1{
@@ -142,10 +139,10 @@ body{
 
 
 .recom{
-    font-size: 30px;
-    padding-top: 30px;
+    font-size: 1.9vw;
+    padding-top: 1.9vw;
     font-weight: 900;
-    padding-bottom: 20px;
+    padding-bottom: 1.9vw;
     border-bottom: 5px solid #09b5ec;
     width: 310px;
     transition: all ease-in .5s;
@@ -158,9 +155,9 @@ body{
 .card{
     text-align: center;
     box-shadow: 5px 10px 10px #999;
-    padding:50px 30px;
+    padding: 2.1vw 1.9vw;
     border-radius: 10px;
-    width: 300px;
+    width: 25vw;
     height: 50vh;
     padding-top: 40px;
     background-color: #7ed7f268;
@@ -178,7 +175,7 @@ body{
 }
 
 .card h3{
-    font-size: 30px;
+    font-size: 1.9vw;
     margin-bottom: 10px;
     margin-top: 55px;
 }
@@ -187,8 +184,10 @@ body{
     margin-top: 50px;
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 10vw;
     align-items: center;
+    margin-left: 2.1vw;
+    margin-right: 2.1vw;
 }  
 
 
@@ -280,7 +279,6 @@ clear: right;
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 5vw;
 }
 .images{
     height: 25vw;
@@ -308,7 +306,6 @@ clear: right;
     padding: 2vw;
 }
 
-/*footer section*/
 .footer{
     margin-left: 10px;
     margin-right: 10px;
@@ -348,6 +345,10 @@ ul li{
     font-weight: 700;
     position: relative;
             
+}
+                
+.cont2 ul li:not(:first-child){
+    margin-bottom: 10px;               
 }
                 
 .cont2 ul li:not(:first-child){
