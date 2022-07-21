@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Poppins', sans-serif
 }
 /* Nav bar */
 .nav{
@@ -71,7 +73,7 @@
 .img-container{
     background-color: rgba(0, 0, 0, 0.644);
     background-image: url("../images/Kopje-courtesy.jpg");
-    height: 70vh;
+    height: 50vw;
     background-size: cover;
     background-blend-mode:darken;
     width: 100%;
@@ -79,11 +81,11 @@
 h1{
     color: rgb(204, 239, 241); 
     font-weight: 400;
+    font-size: 2.6vw;
 }
 .brk{
-    background-color: #d9d9d9;
-    padding: 20px;
-    border-top: 3px solid grey;
+    padding: 1.9vw;
+    border-top: 1.1vw solid grey;
 }
 .first-pkg{
     display: flex;
@@ -93,9 +95,13 @@ h1{
 }
 h2{
     text-align: center;
+    justify-content: center;
+    font-size: 1.9vw;
 }
 h3{
-    text-indent: 150px;
+    text-align: center;
+    margin-top: 1.2vw;
+    font-size: 1.5vw;
 }
 #img{
     padding-left: 3px;
